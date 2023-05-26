@@ -19,22 +19,22 @@ public class Lab6 extends JFrame implements ActionListener {
     private boolean tragamonedasJugado;
 
     public Lab6() {
-        // Configuración de la ventana
+    
         setTitle("Juegos de Azar");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Crear botones
+   
         btnDados = new JButton("Juego de Dados");
         btnTragamonedas = new JButton("Juego de Tragamonedas");
         btnSalir = new JButton("Salir");
 
-        // Agregar oyentes de eventos
+     
         btnDados.addActionListener(this);
         btnTragamonedas.addActionListener(this);
         btnSalir.addActionListener(this);
 
-        // Agregar botones al panel superior
+   
         JPanel panelBotones = new JPanel();
         panelBotones.add(btnDados);
         panelBotones.add(btnTragamonedas);
